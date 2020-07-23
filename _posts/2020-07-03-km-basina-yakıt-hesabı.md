@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Toplam yakıt maliyetini hesaplama"
-date:   2017-09-23 14:46:09 +0300
+title:  "Toplam yakıt maliyetini hesaplayan C kodu"
+date:   2020-07-23 14:46:09 +0300
 categories: jekyll update
 ---
 
@@ -21,23 +21,23 @@ Klavyeden girilen km basina harcanan yakit miktari, yakitin litre fiyati ve arac
 
 Klavyeden girilen kilometre başına harcanan yakıt miktarı, yakıtın litre fiyatı ve aracın kilometre olarak gittiği yol değerleri için ve hesaplanacak toplam yakıt maliyeti için float değişkenleri tanımlıyoruz.
 
-    float kmyakittuk,litrefiyat,toplamyol,maliyet;
+    float kmFuelConsumption,literPrice,totalDistance,finalCost;
 
 Klavyeden almamız gerekenleri değerleri alıyoruz.
 
     printf("Km basina yakit tuketimi(lt): ");
-    scanf("%f",&kmyakittuk);
+    scanf("%f",&kmFuelConsumption);
 
-    printf("\n1 lt yakitin fiyati:          ");
-    scanf("%f",&litrefiyat);
+    printf("\n1 lt yakitin fiyati:");
+    scanf("%f",&literPrice);
 
-    printf("\nAracin kat ettigi toplam yol: ");
-    scanf("%f",&toplamyol);
+    printf("\nAracin kat ettigi toplam yol(km): ");
+    scanf("%f",&totalDistance);
 
 Maliyeti hesaplayıp yazdırıyoruz.
 
-    maliyet=kmyakittuk*litrefiyat*toplamyol;
-    printf("\nToplam yakit maliyeti: %.2f\n",maliyet);
+    finalCost=kmFuelConsumption*literPrice*totalDistance;
+    printf("\nToplam yakit maliyeti: %.2f\n",finalCost);
 
 ***KOD :***
 
@@ -47,20 +47,20 @@ Maliyeti hesaplayıp yazdırıyoruz.
     int main()
     {
 
-        float kmyakittuk,litrefiyat,toplamyol,maliyet;
+        float kmFuelConsumption,literPrice,totalDistance,finalCost;
 
         printf("Km basina yakit tuketimi(lt): ");
-        scanf("%f",&kmyakittuk);
+        scanf("%f",&kmFuelConsumption);
 
-        printf("\n1 lt yakitin fiyati:          ");
-        scanf("%f",&litrefiyat);
+        printf("\n1 lt yakitin fiyati:");
+        scanf("%f",&literPrice);
 
-        printf("\nAracin kat ettigi toplam yol: ");
-        scanf("%f",&toplamyol);
+        printf("\nAracin kat ettigi toplam yol(km): ");
+        scanf("%f",&totalDistance);
 
-        maliyet=kmyakittuk*litrefiyat*toplamyol;
+        finalCost=kmFuelConsumption*literPrice*totalDistance;
 
-        printf("\nToplam yakit maliyeti: %.2f\n",maliyet);
+        printf("\nToplam yakit maliyeti: %.2f\n",finalCost);
 
         return 0;
     }

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "İnç - cm - mm çeviricisi"
-date:   2017-09-23 14:46:09 +0300
+title:  "İnç - cm - mm çeviricisi C kodu"
+date:   2020-07-23 23:12:09 +0300
 categories: jekyll update
 ---
 

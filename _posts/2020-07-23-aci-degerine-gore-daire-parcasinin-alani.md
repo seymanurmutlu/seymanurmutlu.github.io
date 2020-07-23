@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Açı değerine göre daire parçasının alanını bulan C kodu"
-date:   2017-09-23 14:46:09 +0300
+date:   2020-07-23 14:46:09 +0300
 categories: jekyll update
 ---
 ***Soru:***
@@ -13,20 +13,18 @@ Klavyeden girilen açı değeri ve dairenin yarıçap uzunluğuyla daire parças
 
     int main()
     {
-        int aci;
-        float ycap;
-        float alan;
-        float PI=(3,14);
+        int angle;
+        float radius,area;
+        float PI=3.14;
 
-        printf("Taranacak alanin merkezi aci degerini giriniz = \n");
-        scanf("%d",&aci);
+        printf("Taranacak alanin merkezi angle degerini giriniz = \n");
+        scanf("%d",&angle);
 
         printf("Dairenin yaricap degerini giriniz =  \n");
-        scanf("%f",&ycap);
+        scanf("%f",&radius);
 
-        alan = (float)PI*ycap*ycap*(aci/360);
-
-        printf("alan = %.2f",alan);
+        area = PI * radius * radius * (angle/360.0);  
+        printf("area = %f",area);
 
         return 0;
     }
