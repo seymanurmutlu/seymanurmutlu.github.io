@@ -1,1 +1,2 @@
 # seymanurmutlu.github.io
+## blog
