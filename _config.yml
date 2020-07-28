@@ -27,6 +27,9 @@ url: "https://seymanurmutlu.github.io" # the base hostname & protocol for your s
 twitter_username: thelaststheno
 github_username:  seymanurmutlu
 
+author: Şeyma Nur Mutlu
+
+
 # Build settings
 theme: minima
 plugins:
