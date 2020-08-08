@@ -31,7 +31,8 @@ author: Şeyma Nur Mutlu
 
 
 # Build settings
-theme: minima
+# Removed minima theme as it is now a regular
+# theme: minima
 plugins:
   - jekyll-feed
 
