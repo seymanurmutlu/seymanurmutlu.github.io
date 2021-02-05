@@ -11,9 +11,11 @@ Klavyeden kenar uzunluğu girilen karenin alanı ve çevresini hesaplayan progra
 
 ***ÖRNEK :***    
     
-    Uzunluk(inc)= 1
-    -----------------------------------
-    1.00 inc = 2,54 cm = 25,40 mm
+    Karenin kenarini giriniz =
+    1
+    Karenin cevresi 4 olarak hesaplanmistir.
+    Karenin alani 1 olarak hesaplanmistir.
+
     
 ***AÇIKLAMA :***
 
