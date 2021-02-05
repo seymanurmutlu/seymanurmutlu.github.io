@@ -4,6 +4,13 @@ title:  "Kenar Uzunluğu Girilen Karenin Alan ve Çevresini Hesaplayan C Kodu"
 date:   2021-02-05 23:58:09 +0300
 categories: jekyll update
 ---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 ***SORU :***
 
