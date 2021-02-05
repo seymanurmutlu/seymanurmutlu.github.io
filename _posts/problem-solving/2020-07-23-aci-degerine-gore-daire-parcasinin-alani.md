@@ -2,7 +2,7 @@
 layout: post
 title:  "Açı değerine göre daire parçasının alanını bulan C kodu"
 date:   2020-07-23 14:46:09 +0300
-categories: jekyll update
+categories: problem-solving
 ---
 ***Soru:***
 Klavyeden girilen açı değeri ve dairenin yarıçap uzunluğuyla daire parçasının alanı bulun.

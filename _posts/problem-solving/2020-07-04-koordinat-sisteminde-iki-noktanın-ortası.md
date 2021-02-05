@@ -2,7 +2,7 @@
 layout: post
 title:  "Koordinat düzleminde verilen iki noktanın ortasını bulan C kodu"
 date:   2020-07-24 00:14:09 +0300
-categories: jekyll update
+categories: problem-solving
 ---
 
 ***SORU :***

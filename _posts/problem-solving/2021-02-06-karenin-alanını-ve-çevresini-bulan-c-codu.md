@@ -2,7 +2,7 @@
 layout: post
 title:  "Kenar Uzunluğu Girilen Karenin Alan ve Çevresini Hesaplayan C Kodu"
 date:   2021-02-05 23:58:09 +0300
-categories: jekyll update
+categories: problem-solving
 ---
 
 ***SORU :***

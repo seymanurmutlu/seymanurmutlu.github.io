@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Çözümler
+title: Problem Solving
 permalink: /problem-solving/
 ---
-## Problem Çözümleri
 <ul>
   {% for post in site.categories.problem-solving %}
     <li>

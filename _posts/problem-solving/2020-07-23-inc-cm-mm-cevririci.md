@@ -2,7 +2,7 @@
 layout: post
 title:  "İnç - cm - mm çeviricisi C kodu"
 date:   2020-07-23 23:12:09 +0300
-categories: jekyll update
+categories: problem-solving
 ---
 
 ***SORU :***
