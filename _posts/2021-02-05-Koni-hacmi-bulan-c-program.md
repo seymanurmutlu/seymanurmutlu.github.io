@@ -7,7 +7,7 @@ categories: jekyll update
 
 ***SORU :***
 
-Klavyeden çap ve yükseklik bilgisi girilen koninin hacmini hesaplayan programı yazın. (1 inc 2,54cm)
+Klavyeden çap ve yükseklik bilgisi girilen koninin hacmini hesaplayan programı yazın.
 
 ***ÖRNEK :***    
     
@@ -26,7 +26,7 @@ Klavyeden girilecek olan çap ve yükseklik değerleri için, koninin hacmini he
     float kcap,kyukseklik,khacim;
     float PI=3.1419;
 
-Klavyeden almamız gerekenleri değerleri alıyoruz.
+Klavyeden almamız gereken değerleri alıyoruz.
 
     printf("Koninin capini giriniz = \n");
     scanf("%f",&kcap);
@@ -43,25 +43,25 @@ Hacim bilgisini hesaplayıp yazdırıyoruz.
 
 ***KOD :***
 
-#include <stdio.h>
-#include <stdlib.h>
+    #include <stdio.h>
+    #include <stdlib.h>
 
-int main()
-{
-    float kcap;
-    float kyukseklik;
-    float PI=3.1419;
-    float khacim;
+    int main()
+    {
+        float kcap;
+        float kyukseklik;
+        float PI=3.1419;
+        float khacim;
 
-    printf("Koninin capini giriniz = \n");
-    scanf("%f",&kcap);
+        printf("Koninin capini giriniz = \n");
+        scanf("%f",&kcap);
 
-    printf("Koninin yuksekligini giriniz = \n");
-    scanf("%f",&kyukseklik);
+        printf("Koninin yuksekligini giriniz = \n");
+        scanf("%f",&kyukseklik);
 
-    khacim = PI*kcap*kcap*kyukseklik/3;
+        khacim = PI*kcap*kcap*kyukseklik/3;
 
-    printf("Koninin hacmi = %f",khacim);
+        printf("Koninin hacmi = %f",khacim);
 
-    return 0;
-}
+        return 0;
+    }
