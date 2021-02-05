@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /probelm-solving/
+title: Çözümler
+permalink: /problem-solving/
 ---
 ## Problem Çözümleri
 <ul>
