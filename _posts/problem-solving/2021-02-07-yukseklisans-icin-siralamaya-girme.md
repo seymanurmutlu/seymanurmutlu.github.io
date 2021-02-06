@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Yüksek Lisans İçin Sıralamaya Dahil Edilebilirliğini Kontrol Eden C Kodu"
-date:   2021-02-05 23:58:09 +0300
+date:   2021-02-07 00:27:09 +0300
 categories: problem-solving
 ---
 
 ***SORU :***
-Lisansüstü eğitim yapmak icin basvuran adayin ALES puanı, yabanci dil puanı ve mezuniyet not ortalamasına göre oluştururan sıralama puanını ile siralamaya girip giremeyecegini ekrana yazdiran programi yaziniz.
+
+Lisansüstü eğitim yapmak icin basvuran adayin ALES puanı, yabanci dil puanı ve mezuniyet not ortalamasına göre oluştururan sıralama puanını ile siralamaya girip giremeyecegini ekrana yazdıran programı yazınız.
 
 Sıralama puanı = ALES sınavının %50'si + Yabanci dil sınavının %25'i + mezuniyet puanının %25'i olarak hesaplanır. Ortalama 60 üzeri ise sıralamaya girebilir.
 

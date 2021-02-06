@@ -6,21 +6,22 @@ categories: problem-solving
 ---
 
 ***SORU :***
+
 Klavyeden girilen seçime göre istenilen geometrik şeklin alanını hesaplayan programı yazınız.
 
 ***ÖRNEK :***    
 
------MENU-----
-(D veya d) Daire
-(T veya t) Diktortgen
-(K veya k) Kare
-(U veya u) Ucgen
+    -----MENU-----
+    (D veya d) Daire
+    (T veya t) Diktortgen
+    (K veya k) Kare
+    (U veya u) Ucgen
 
-SECIMINIZ: d
-Dairenin yaricap uzunlugunu girin:11
+    SECIMINIZ: d
+    Dairenin yaricap uzunlugunu girin:11
 
-dairenin yaricap uzunlugu: 11
-dairenin alani: 379.94          
+    dairenin yaricap uzunlugu: 11
+    dairenin alani: 379.94          
  
 ***KOD :***
 

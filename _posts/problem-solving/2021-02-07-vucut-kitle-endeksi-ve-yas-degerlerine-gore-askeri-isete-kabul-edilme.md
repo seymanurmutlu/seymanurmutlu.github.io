@@ -18,6 +18,7 @@ Kilo endeksi ve yaş değerlerine göre askeri liseye kabul edilme şartlarını
     Tebrikler Askeri liseye girebilirsiniz. 
 
 ***AÇIKLAMA :***
+
 Yaş değeri, askeri liseye giriş yaşları arasında değilse vucüt kitle endeksini hesaplamadan programı sonlandırıyoruz. Yaş değeri şartlara uygunsa vucüt kitle endeksini hesaplayarak, şartlara uygunluğunu kontrol ediyoruz.
 
 Burada kullanıdığımız "%.2f" ifadesi, float sayının sadece virgülden sonraki ilk iki basamağını bastırması için kullanılmıştır.

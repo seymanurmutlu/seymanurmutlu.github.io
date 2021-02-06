@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sayısı Verilen Günü Yazdırma (Switch Case)
+title:  "Sayısı Verilen Günü Yazdırma (Switch Case)"
 date:   2021-02-06 23:32:09 +0300
 categories: problem-solving
 ---
@@ -10,9 +10,9 @@ Klavyeden girilen sayiya gore gunu haftanın hangi günü olduğunu veren progra
 
 ***ÖRNEK :***    
 
-Gunun degerini giriniz[1-7]: 1
-Girdiginiz deger 'Pazar' a aittir.
-    
+    Gunun degerini giriniz[1-7]: 1
+    Girdiginiz deger 'Pazar' a aittir.
+        
 ***AÇIKLAMA :***
 
 İhtiyacımız olan gün sayısı için değişken tanımlıyoruz.
